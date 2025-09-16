@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
+.logo {
+  display: flex;
+  gap: 20px;
+  flex: 1;
+  align-items: center;
+}
+.title {
+  font-weight: 500;
+  font-style: italic;
+  font-size: 28px;
+  letter-spacing: 1.2px;
+  color: #ff6f2e; /* Fill color */
+  /* Border color and thickness */
+  text-shadow: 0.5px 0 #001460, -0.5px 0 #001460, 0 0.5px #001460,
+    0 -0.5px #001460, 0.5px -0.5px #001460, -0.5px -0.5px #001460,
+    -0.5px 0.5px #001460, 1px 0 #001460, 0 2px #001460, 2px 2px #001460;
+  font-weight: 700;
+}
+.links {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex: 1;
+  font-size: 16px;
+  font-weight: 400;
+}
+.linkText {
+  letter-spacing: 1.8px;
+  color: #ff6f2e; /* Fill color */
+  /* Border color and thickness */
+  text-shadow: 0.5px 0 #001460, -0.5px 0 #001460, 0 0.5px #001460,
+    0 -0.5px #001460, 0.5px -0.5px #001460, -0.5px -0.5px #001460,
+    -0.5px 0.5px #001460, 1px 0 #001460, 0 2px #001460, 2px 2px #001460;
+  font-weight: 700;
+}
