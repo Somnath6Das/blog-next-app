@@ -51,7 +51,7 @@
 .darkWriteBtn {
   cursor: pointer;
   color: #001460;
-  background-color: #00b600;
+  background-color: #2acdb1;
 
   border-top: 1px solid #36427d;
   border-left: 1px solid #36427d;
@@ -65,5 +65,5 @@
   background-color: #008200;
 }
 .darkWriteBtn:hover {
-  background-color: #008200;
+  background-color: #1e8f7e;
 }
