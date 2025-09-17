@@ -1,24 +1,46 @@
+"use client";
+
 import React from "react"
 import styles from "./navbar.module.css"
 import Image from "next/image"
 import Link from "next/link"
 import Auth from "../auth/auth"
-import ToggleTheme from "../toggleTheme/ToggleTheme"
+import { useContext } from "react";
+import { ThemeContext } from "@/context/ThemeContext";
 
 export default function NavBar() {
+    const { toggle, theme } = useContext(ThemeContext);
     return (
         <div className={styles.container}>
             <Link href="/" className={styles.logo}>
-                <Image src="/logo1.png" width={30} height={30} alt="logo" />
-                <div className={styles.title}>Better Blog</div>
+                <div className={styles.logoImage} style={theme === "dark" ? { border: "2px solid #36427d" } : { border: "2px solid #001460" }}>
+                    <Image src="/letter.png" width={28} height={28} alt="logo" />
+                </div>
+                <div className={theme === "dark" ? styles.darkTitle : styles.title} >Better Blog</div>
             </Link>
+            <div
+                className={styles.themeBtn}
+                onClick={toggle}
+                style={
+                    theme === "dark" ? { backgroundColor: "white" } : { backgroundColor: "#de642e" }
+                }
+            >
 
+                <div
+                    className={styles.ball}
+                    style={
+                        theme === "dark"
+                            ? { left: 1, background: "#0f172a" }
+                            : { right: 1, background: "white" }
+                    }
+                ></div>
+
+            </div>
             <div className={styles.links}>
-                <ToggleTheme />
-                <Link href="/" className={styles.linkText}>Home</Link>
-                <Link href="/" className={styles.linkText}>Contact</Link>
-                <Link href="/" className={styles.linkText}>About</Link>
-                <Auth />
+                <Link href="/" className={theme === "dark" ? styles.darkLinkText : styles.linkText} >Home</Link>
+                <Link href="/" className={theme === "dark" ? styles.darkLinkText : styles.linkText} >Contact</Link>
+                <Link href="/" className={theme === "dark" ? styles.darkLinkText : styles.linkText} >About</Link>
+                <Auth theme={theme} />
             </div>
         </div>
     )

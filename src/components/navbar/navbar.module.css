@@ -3,25 +3,62 @@
   align-items: center;
   justify-content: space-between;
   height: 60px;
+  gap: 47px;
 }
 .logo {
   display: flex;
-  gap: 20px;
+  gap: 10px;
   flex: 1;
   align-items: center;
 }
+.logoImage {
+  display: flex;
+  border-radius: 50px;
+}
 .title {
   font-weight: 500;
-  font-style: italic;
-  font-size: 28px;
+  /* font-style: italic; */
+  color: #ff6f2e;
+  font-size: 30px;
   letter-spacing: 1.2px;
-  color: #ff6f2e; /* Fill color */
+  /* Fill color */
   /* Border color and thickness */
   text-shadow: 0.5px 0 #001460, -0.5px 0 #001460, 0 0.5px #001460,
     0 -0.5px #001460, 0.5px -0.5px #001460, -0.5px -0.5px #001460,
     -0.5px 0.5px #001460, 1px 0 #001460, 0 2px #001460, 2px 2px #001460;
   font-weight: 700;
 }
+.darkTitle {
+  font-weight: 500;
+  /* font-style: italic; */
+  color: #b4bdff;
+  font-size: 30px;
+  letter-spacing: 1.2px;
+  /* Fill color */
+  /* Border color and thickness */
+  text-shadow: 0.5px 0 #36427d, -0.5px 0 #36427d, 0 0.5px #36427d,
+    0 -0.5px #36427d, 0.5px -0.5px #36427d, -0.5px -0.5px #36427d,
+    -0.5px 0.5px #36427d, 1px 0 #36427d, 0 2px #36427d, 2px 2px #36427d;
+  font-weight: 700;
+}
+.themeBtn {
+  width: 40px;
+  height: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.ball {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+}
+
 .links {
   display: flex;
   align-items: center;
@@ -37,5 +74,15 @@
   text-shadow: 0.5px 0 #001460, -0.5px 0 #001460, 0 0.5px #001460,
     0 -0.5px #001460, 0.5px -0.5px #001460, -0.5px -0.5px #001460,
     -0.5px 0.5px #001460, 1px 0 #001460, 0 2px #001460, 2px 2px #001460;
+  font-weight: 700;
+}
+
+.darkLinkText {
+  letter-spacing: 1.8px;
+  color: #b4bdff; /* Fill color */
+  /* Border color and thickness */
+  text-shadow: 0.5px 0 #36427d, -0.5px 0 #36427d, 0 0.5px #36427d,
+    0 -0.5px #36427d, 0.5px -0.5px #36427d, -0.5px -0.5px #36427d,
+    -0.5px 0.5px #36427d, 1px 0 #36427d, 0 2px #36427d, 2px 2px #36427d;
   font-weight: 700;
 }

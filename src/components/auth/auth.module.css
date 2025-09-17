@@ -11,8 +11,24 @@
   padding: 5px 20px;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
+.darkLink {
+  cursor: pointer;
+  color: #001460;
+  background-color: #b4bdff;
+
+  border-top: 1px solid #36427d;
+  border-left: 1px solid #36427d;
+  border-right: 2px solid #36427d;
+  border-bottom: 2px solid #36427d;
+
+  padding: 5px 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
 .link:hover {
   background-color: #bf5628;
+}
+.darkLink:hover {
+  background-color: #4858a6;
 }
 .authContainer {
   display: flex;
@@ -32,6 +48,22 @@
   padding: 5px 28px;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
+.darkWriteBtn {
+  cursor: pointer;
+  color: #001460;
+  background-color: #00b600;
+
+  border-top: 1px solid #36427d;
+  border-left: 1px solid #36427d;
+  border-right: 2px solid #36427d;
+  border-bottom: 2px solid #36427d;
+
+  padding: 5px 28px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
 .writeBtn:hover {
+  background-color: #008200;
+}
+.darkWriteBtn:hover {
   background-color: #008200;
 }

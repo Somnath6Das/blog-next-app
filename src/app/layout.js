@@ -1,12 +1,13 @@
-import { IBM_Plex_Mono } from "next/font/google";
+import { Roboto_Slab } from "next/font/google";
 import "./globals.css";
 import NavBar from "@/components/navbar/Navbar";
 import Footer from "@/components/footer/Footer";
+import { ThemeContextProvider } from "@/context/ThemeContext";
+import ThemeProvider from "@/provider/ThemeProvider";
 
-const ibmPlexMono = IBM_Plex_Mono({
+const robotoSlab = Roboto_Slab({
   subsets: ["latin"],
   weight: ["200", "400", "500", "700"],
-  style: ["normal", "italic"],
 });
 
 export const metadata = {
@@ -17,14 +18,18 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={ibmPlexMono.className}>
-        <div className="container">
-          <div className="wrapper">
-            <NavBar />
-            {children}
-            <Footer />
-          </div>
-        </div>
+      <body className={robotoSlab.className}>
+        <ThemeContextProvider>
+          <ThemeProvider>
+            <div className="container">
+              <div className="wrapper">
+                <NavBar />
+                {children}
+                <Footer />
+              </div>
+            </div>
+          </ThemeProvider>
+        </ThemeContextProvider>
       </body>
     </html>
   );
