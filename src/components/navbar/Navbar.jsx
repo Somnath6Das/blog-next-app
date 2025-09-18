@@ -40,8 +40,9 @@ export default function NavBar() {
                 <Link href="/" className={theme === "dark" ? styles.darkLinkText : styles.linkText} >Home</Link>
                 <Link href="/" className={theme === "dark" ? styles.darkLinkText : styles.linkText} >Contact</Link>
                 <Link href="/" className={theme === "dark" ? styles.darkLinkText : styles.linkText} >About</Link>
-                <Auth theme={theme} />
+
             </div>
+            <Auth theme={theme} />
         </div>
     )
 }
