@@ -16,7 +16,6 @@
   border-radius: 50px;
 }
 .title {
-  font-weight: 500;
   /* font-style: italic; */
   color: #ff6f2e;
   font-size: 30px;
@@ -29,7 +28,6 @@
   font-weight: 700;
 }
 .darkTitle {
-  font-weight: 500;
   /* font-style: italic; */
   color: #b4bdff;
   font-size: 30px;

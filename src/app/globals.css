@@ -19,12 +19,16 @@ a {
   text-decoration: none;
 }
 .dark {
-  --bg: #080a13;
-  --textColor: #ddd;
+  --bg: #151825;
+  --textColor: #b4bdff;
+
   --softBg: #1f273a;
   --softTextColor: #a6a6a6;
 }
-
+.light {
+  --bg: #feeed5;
+  --textColor: #ff6f2e;
+}
 .container {
   min-height: 100vh;
   background-color: var(--bg);
