@@ -36,9 +36,9 @@
   letter-spacing: 1.2px;
   /* Fill color */
   /* Border color and thickness */
-  text-shadow: 1px 0 #36427d, -1px 0 #36427d, 0 1px #36427d, 0 -1px #36427d,
-    1px -1px #36427d, -1px -1px #36427d, -1px 1px #36427d, 0 2px #36427d,
-    2px 2px #36427d;
+  text-shadow: 1px 0 #4a5489, -1px 0 #4a5489, 0 1px #4a5489, 0 -1px #4a5489,
+    1px -1px #4a5489, -1px -1px #4a5489, -1px 1px #4a5489, 0 2px #4a5489,
+    2px 2px #4a5489;
   font-weight: 700;
 }
 .themeCont {
@@ -89,9 +89,9 @@
   letter-spacing: 1.8px;
   color: #b4bdff; /* Fill color */
   /* Border color and thickness */
-  text-shadow: 0.5px 0 #36427d, -0.5px 0 #36427d, 0 0.5px #36427d,
-    0 -0.5px #36427d, 0.5px -0.5px #36427d, -0.5px -0.5px #36427d,
-    -0.5px 0.5px #36427d, 1px 0 #36427d, 0 2px #36427d, 2px 2px #36427d;
+  text-shadow: 0.5px 0 #4a5489, -0.5px 0 #4a5489, 0 0.5px #4a5489,
+    0 -0.5px #4a5489, 0.5px -0.5px #4a5489, -0.5px -0.5px #4a5489,
+    -0.5px 0.5px #4a5489, 1px 0 #4a5489, 0 2px #4a5489, 2px 2px #4a5489;
   font-weight: 700;
 }
 @media screen and (max-width: 1280px) {

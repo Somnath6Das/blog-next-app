@@ -23,9 +23,9 @@ export default function Auth({ theme }) {
             </div>
             {open && (
                 <div className={styles.responsiveMenu}>
-                    <Link href="/">Homepage</Link>
-                    <Link href="/">About</Link>
-                    <Link href="/">Contact</Link>
+                    <Link href="/" className={theme === "dark" ? styles.darkLinkText : styles.linkText}>Home</Link>
+                    <Link href="/" className={theme === "dark" ? styles.darkLinkText : styles.linkText}>About</Link>
+                    <Link href="/" className={theme === "dark" ? styles.darkLinkText : styles.linkText}>Contact</Link>
                     {status === "authenticated" ? (
                         <Link href="/login" className={theme === "dark" ? styles.smallDarkLink : styles.smallLink}>Login</Link>
                     ) : (
