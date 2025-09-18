@@ -13,7 +13,7 @@ export default function NavBar() {
     return (
         <div className={styles.container}>
             <Link href="/" className={styles.logo}>
-                <div className={styles.logoImage} style={theme === "dark" ? { border: "2px solid #36427d" } : { border: "2px solid #001460" }}>
+                <div className={styles.logoImage} style={theme === "dark" ? { border: "1px solid #b4bdff" } : { border: "1px solid #de642e" }}>
                     <Image src="/letter.png" width={28} height={28} alt="logo" />
                 </div>
                 <div className={theme === "dark" ? styles.darkTitle : styles.title} >Better Blog</div>

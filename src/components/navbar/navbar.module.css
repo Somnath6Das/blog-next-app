@@ -23,9 +23,9 @@
   letter-spacing: 1.2px;
   /* Fill color */
   /* Border color and thickness */
-  text-shadow: 0.5px 0 #001460, -0.5px 0 #001460, 0 0.5px #001460,
-    0 -0.5px #001460, 0.5px -0.5px #001460, -0.5px -0.5px #001460,
-    -0.5px 0.5px #001460, 1px 0 #001460, 0 2px #001460, 2px 2px #001460;
+  text-shadow: 1px 0 #001460, -1px 0 #001460, 0 1px #001460, 0 -1px #001460,
+    1px -1px #001460, -1px -1px #001460, -1px 1px #001460, 1px 0 #001460,
+    0 2px #001460, 2px 2px #001460;
   font-weight: 700;
 }
 .darkTitle {
@@ -36,9 +36,9 @@
   letter-spacing: 1.2px;
   /* Fill color */
   /* Border color and thickness */
-  text-shadow: 0.5px 0 #36427d, -0.5px 0 #36427d, 0 0.5px #36427d,
-    0 -0.5px #36427d, 0.5px -0.5px #36427d, -0.5px -0.5px #36427d,
-    -0.5px 0.5px #36427d, 1px 0 #36427d, 0 2px #36427d, 2px 2px #36427d;
+  text-shadow: 1px 0 #36427d, -1px 0 #36427d, 0 1px #36427d, 0 -1px #36427d,
+    1px -1px #36427d, -1px -1px #36427d, -1px 1px #36427d, 0 2px #36427d,
+    2px 2px #36427d;
   font-weight: 700;
 }
 .themeBtn {

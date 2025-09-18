@@ -1,13 +1,14 @@
-import { Roboto_Slab } from "next/font/google";
+import { Zilla_Slab } from "next/font/google";
 import "./globals.css";
 import NavBar from "@/components/navbar/Navbar";
 import Footer from "@/components/footer/Footer";
 import { ThemeContextProvider } from "@/context/ThemeContext";
 import ThemeProvider from "@/provider/ThemeProvider";
 
-const robotoSlab = Roboto_Slab({
+export const zillaSlab = Zilla_Slab({
   subsets: ["latin"],
-  weight: ["200", "400", "500", "700"],
+  weight: ["400", "500", "600", "700"],
+  style: ["normal", "italic"],
 });
 
 export const metadata = {
@@ -18,7 +19,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={robotoSlab.className}>
+      <body className={zillaSlab.className}>
         <ThemeContextProvider>
           <ThemeProvider>
             <div className="container">
