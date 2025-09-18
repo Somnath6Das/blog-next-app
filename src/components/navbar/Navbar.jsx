@@ -18,29 +18,31 @@ export default function NavBar() {
                 </div>
                 <div className={theme === "dark" ? styles.darkTitle : styles.title} >Better Blog</div>
             </Link>
-            <div
-                className={styles.themeBtn}
-                onClick={toggle}
-                style={
-                    theme === "dark" ? { backgroundColor: "white" } : { backgroundColor: "#de642e" }
-                }
-            >
-
+            <div className={styles.themeCont}>
                 <div
-                    className={styles.ball}
+                    className={styles.themeBtn}
+                    onClick={toggle}
                     style={
-                        theme === "dark"
-                            ? { left: 1, background: "#0f172a" }
-                            : { right: 1, background: "white" }
+                        theme === "dark" ? { backgroundColor: "white" } : { backgroundColor: "#de642e" }
                     }
-                ></div>
+                >
 
-            </div>
-            <div className={styles.links}>
-                <Link href="/" className={theme === "dark" ? styles.darkLinkText : styles.linkText} >Home</Link>
-                <Link href="/" className={theme === "dark" ? styles.darkLinkText : styles.linkText} >Contact</Link>
-                <Link href="/" className={theme === "dark" ? styles.darkLinkText : styles.linkText} >About</Link>
+                    <div
+                        className={styles.ball}
+                        style={
+                            theme === "dark"
+                                ? { left: 1, background: "#0f172a" }
+                                : { right: 1, background: "white" }
+                        }
+                    ></div>
 
+                </div>
+                <div className={styles.links}>
+                    <Link href="/" className={theme === "dark" ? styles.darkLinkText : styles.linkText} >Home</Link>
+                    <Link href="/" className={theme === "dark" ? styles.darkLinkText : styles.linkText} >Contact</Link>
+                    <Link href="/" className={theme === "dark" ? styles.darkLinkText : styles.linkText} >About</Link>
+
+                </div>
             </div>
             <Auth theme={theme} />
         </div>
