@@ -15,7 +15,7 @@ export default function SearchPost() {
                 </div>
                 <div className={theme === 'dark' ? styles.searchIconDark : styles.searchIcon}>
                     <Image
-                        src={"/search.png"}
+                        src={theme === 'dark' ? "/search_black.png" : "/search.png"}
                         width={30}
                         height={30}
                         alt="logo"
