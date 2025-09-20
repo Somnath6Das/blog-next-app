@@ -31,14 +31,14 @@ export default function CategoryList() {
                 >
 
                     <Image
-                        src='/politics.png'
+                        src='/travel.png'
                         alt=""
                         width={20}
                         height={20}
                         className={styles.image}
                     />
 
-                    Politics
+                    Travel
                 </Link>
                 <Link
                     href="/blog?cat=Techonology"
