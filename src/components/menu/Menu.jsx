@@ -1,6 +1,7 @@
 import React from "react"
 import styles from "./menu.module.css"
 import MenuItem from "@/menuItem/MenuItem"
+import MenuCategories from "../menuCategories/MenuCategories"
 
 export default function Menu() {
     return (
@@ -13,6 +14,7 @@ export default function Menu() {
             <MenuItem />
             <MenuItem />
             <MenuItem />
+            <MenuCategories />
         </div>
     )
 }
