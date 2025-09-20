@@ -1,0 +1,199 @@
+/* [project]/src/components/cardList/cardList.module.css [app-client] (css) */
+.cardList-module__9ItIaG__container {
+  flex: 5;
+}
+
+.cardList-module__9ItIaG__title {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+/* [project]/src/components/pagination/pagination.module.css [app-client] (css) */
+.pagination-module__kbSfbq__container {
+  justify-content: space-between;
+  display: flex;
+}
+
+.pagination-module__kbSfbq__button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #dc143c;
+  border: none;
+  width: 100px;
+  padding: 16px;
+}
+
+.pagination-module__kbSfbq__button:disabled {
+  cursor: not-allowed;
+  background-color: rgba(220, 20, 60, .475);
+}
+
+/* [project]/src/components/card/card.module.css [app-client] (css) */
+.card-module__ILqH_q__container {
+  background-color: #c2c2c2;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.card-module__ILqH_q__imageContainer {
+  flex: 1;
+  height: 250px;
+  position: relative;
+}
+
+.card-module__ILqH_q__image {
+  object-fit: cover;
+  height: 100px;
+}
+
+.card-module__ILqH_q__textContainer {
+  flex-direction: column;
+  flex: 1;
+  gap: 24px;
+  display: flex;
+}
+
+.card-module__ILqH_q__date {
+  color: gray;
+}
+
+.card-module__ILqH_q__category {
+  color: #dc143c;
+  font-weight: 500;
+}
+
+.card-module__ILqH_q__desc {
+  color: var(--softTextColor);
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.card-module__ILqH_q__link {
+  border-bottom: 1px solid #dc143c;
+  width: max-content;
+  padding: 2px 0;
+}
+
+@media screen and (max-width: 1280px) {
+  .card-module__ILqH_q__imageContainer {
+    display: none;
+  }
+}
+
+/* [project]/src/app/blog/blogPage.module.css [app-client] (css) */
+.blogPage-module__SrCw2q__title {
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: coral;
+  padding: 5px 10px;
+}
+
+.blogPage-module__SrCw2q__content {
+  flex-direction: column;
+  display: flex;
+}
+
+/* [project]/src/components/menu/menu.module.css [app-client] (css) */
+.menu-module__RpGYTG__container {
+  flex: 2;
+}
+
+/* [project]/src/menuItem/menuItem.module.css [app-client] (css) */
+.menuItem-module__Q5neGq__items {
+  flex-direction: column;
+  gap: 35px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.menuItem-module__Q5neGq__item {
+  align-items: center;
+  gap: 20px;
+  display: flex;
+}
+
+.menuItem-module__Q5neGq__imageContainer {
+  aspect-ratio: 1;
+  flex: 1;
+  position: relative;
+}
+
+.menuItem-module__Q5neGq__image {
+  object-fit: cover;
+  border: 3px solid #d3d3d3;
+  border-radius: 50%;
+}
+
+.menuItem-module__Q5neGq__textContainer {
+  flex-direction: column;
+  flex: 4;
+  gap: 5px;
+  display: flex;
+}
+
+.menuItem-module__Q5neGq__category {
+  color: #fff;
+  border-radius: 10px;
+  width: max-content;
+  padding: 3px 8px;
+  font-size: 12px;
+}
+
+.menuItem-module__Q5neGq__category.menuItem-module__Q5neGq__travel {
+  background-color: #ff7857;
+}
+
+.menuItem-module__Q5neGq__culture {
+  background-color: #ffb14f;
+}
+
+.menuItem-module__Q5neGq__food {
+  background-color: #7fb881;
+}
+
+.menuItem-module__Q5neGq__fashion {
+  background-color: #ff7887;
+}
+
+.menuItem-module__Q5neGq__coding {
+  background-color: #775aec;
+}
+
+.menuItem-module__Q5neGq__style {
+  background-color: #789cff;
+}
+
+.menuItem-module__Q5neGq__postTitle {
+  color: var(--softTextColor);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.menuItem-module__Q5neGq__detail {
+  font-size: 12px;
+}
+
+.menuItem-module__Q5neGq__date {
+  color: gray;
+}
+
+/* [project]/src/components/menuCategories/menuCategories.module.css [app-client] (css) */
+.menuCategories-module__Tqbfvq__categoryList {
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 35px;
+  margin-bottom: 60px;
+  display: flex;
+}
+
+.menuCategories-module__Tqbfvq__categoryItem {
+  background-color: rgba(87, 196, 255, .192);
+  padding: 10px 25px;
+  font-size: 14px;
+}
+
+/*# sourceMappingURL=src_42714f08._.css.map*/

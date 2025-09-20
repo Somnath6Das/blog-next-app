@@ -1,0 +1,622 @@
+/* [next]/internal/font/google/zilla_slab_9938dbed.module.css [app-client] (css) */
+@font-face {
+  font-family: Zilla Slab;
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../media/fe0eb311b7825c23-s.fc26bd2d.woff2") format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: Zilla Slab;
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../media/d1c06f13a371d444-s.p.7728df38.woff2") format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: Zilla Slab;
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../media/7a827c4486e280b3-s.5fa34a25.woff2") format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: Zilla Slab;
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../media/ce5e4627fcd5388a-s.p.674b0056.woff2") format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: Zilla Slab;
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../media/7aaeadce193d9ace-s.96d1e5fd.woff2") format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: Zilla Slab;
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../media/36de5b34b2b35c9f-s.p.0e6a5505.woff2") format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: Zilla Slab;
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../media/d7f5d9d3293b64e1-s.2b284a54.woff2") format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: Zilla Slab;
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../media/28686e0a8862b4b3-s.p.16c693b2.woff2") format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: Zilla Slab;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../media/77ff06b584ce5c3b-s.3566d968.woff2") format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: Zilla Slab;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../media/f8a66589f2577848-s.p.747539f4.woff2") format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: Zilla Slab;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../media/0ec8b6964dca4738-s.20ec7cb7.woff2") format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: Zilla Slab;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../media/49bcce62f8e09af8-s.p.07817659.woff2") format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: Zilla Slab;
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../media/8cd2bc38ce1bfc5d-s.227d0b37.woff2") format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: Zilla Slab;
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../media/c3191a2e06136a6d-s.p.fcc7e440.woff2") format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: Zilla Slab;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../media/16e00d4466991d3a-s.23fc9ea4.woff2") format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: Zilla Slab;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../media/b8256b1b99fdd790-s.p.0242e5c4.woff2") format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: Zilla Slab Fallback;
+  src: local(Times New Roman);
+  ascent-override: 88.36%;
+  descent-override: 23.96%;
+  line-gap-override: 0.0%;
+  size-adjust: 106.83%;
+}
+
+.zilla_slab_9938dbed-module__du9l6a__className {
+  font-family: Zilla Slab, Zilla Slab Fallback;
+}
+
+/* [project]/src/app/globals.css [app-client] (css) */
+:root {
+  --bg: #feeed5;
+  --textColor: black;
+  --softBg: #f0f0f0;
+  --softTextColor: #626262;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 100vw;
+  font-family: Zilla Slab, serif;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.dark {
+  --bg: #18181e;
+  --textColor: #b4bdff;
+}
+
+.light {
+  --bg: #feeed5;
+  --textColor: #ff6f2e;
+}
+
+.container {
+  background-color: var(--bg);
+  min-height: 100vh;
+  color: var(--textColor);
+}
+
+.wrapper {
+  max-width: 1536px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+@media screen and (max-width: 1536px) {
+  .wrapper {
+    max-width: 1366px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .wrapper {
+    max-width: 1024px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    max-width: 768px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    max-width: 640px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .wrapper {
+    max-width: 475px;
+  }
+}
+
+/* [project]/src/components/navbar/navbar.module.css [app-client] (css) */
+.navbar-module__6qiM_q__container {
+  justify-content: space-between;
+  align-items: center;
+  gap: 47px;
+  height: 60px;
+  display: flex;
+}
+
+.navbar-module__6qiM_q__logo {
+  flex: 1;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.navbar-module__6qiM_q__logoImage {
+  border-radius: 50px;
+  display: flex;
+}
+
+.navbar-module__6qiM_q__title {
+  color: #ff6f2e;
+  letter-spacing: 1.2px;
+  text-shadow: 1px 0 #001460, -1px 0 #001460, 0 1px #001460, 0 -1px #001460, 1px -1px #001460, -1px -1px #001460, -1px 1px #001460, 1px 0 #001460, 0 2px #001460, 2px 2px #001460;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.navbar-module__6qiM_q__darkTitle {
+  color: #b4bdff;
+  letter-spacing: 1.2px;
+  text-shadow: 1px 0 #4a5489, -1px 0 #4a5489, 0 1px #4a5489, 0 -1px #4a5489, 1px -1px #4a5489, -1px -1px #4a5489, -1px 1px #4a5489, 0 2px #4a5489, 2px 2px #4a5489;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.navbar-module__6qiM_q__themeCont {
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  display: flex;
+}
+
+.navbar-module__6qiM_q__themeBtn {
+  cursor: pointer;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 20px;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.navbar-module__6qiM_q__ball {
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+}
+
+.navbar-module__6qiM_q__links {
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 40px;
+  font-size: 18px;
+  font-weight: 400;
+  display: flex;
+}
+
+.navbar-module__6qiM_q__linkText {
+  letter-spacing: 1.8px;
+  color: #ff6f2e;
+  text-shadow: .5px 0 #001460, -.5px 0 #001460, 0 .5px #001460, 0 -.5px #001460, .5px -.5px #001460, -.5px -.5px #001460, -.5px .5px #001460, 1px 0 #001460, 0 2px #001460, 2px 2px #001460;
+  font-weight: 700;
+}
+
+.navbar-module__6qiM_q__darkLinkText {
+  letter-spacing: 1.8px;
+  color: #b4bdff;
+  text-shadow: .5px 0 #4a5489, -.5px 0 #4a5489, 0 .5px #4a5489, 0 -.5px #4a5489, .5px -.5px #4a5489, -.5px -.5px #4a5489, -.5px .5px #4a5489, 1px 0 #4a5489, 0 2px #4a5489, 2px 2px #4a5489;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 1280px) {
+  .navbar-module__6qiM_q__container {
+    gap: 40px;
+  }
+
+  .navbar-module__6qiM_q__darkTitle, .navbar-module__6qiM_q__title {
+    font-size: 28px;
+  }
+
+  .navbar-module__6qiM_q__links {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .navbar-module__6qiM_q__container {
+    gap: 30px;
+  }
+
+  .navbar-module__6qiM_q__themeCont {
+    gap: 25px;
+  }
+
+  .navbar-module__6qiM_q__darkTitle, .navbar-module__6qiM_q__title {
+    font-size: 22px;
+  }
+
+  .navbar-module__6qiM_q__themeBtn {
+    width: 25px;
+    height: 12px;
+  }
+
+  .navbar-module__6qiM_q__ball {
+    width: 10px;
+    height: 10px;
+  }
+
+  .navbar-module__6qiM_q__links {
+    gap: 26px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-module__6qiM_q__container, .navbar-module__6qiM_q__themeCont {
+    gap: 12px;
+  }
+
+  .navbar-module__6qiM_q__darkTitle, .navbar-module__6qiM_q__title {
+    font-size: 16px;
+  }
+
+  .navbar-module__6qiM_q__themeBtn {
+    width: 25px;
+    height: 12px;
+  }
+
+  .navbar-module__6qiM_q__ball {
+    width: 10px;
+    height: 10px;
+  }
+
+  .navbar-module__6qiM_q__links {
+    gap: 10px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .navbar-module__6qiM_q__links {
+    justify-content: flex-end;
+  }
+
+  .navbar-module__6qiM_q__themeBtn {
+    justify-content: flex-end;
+    display: flex;
+  }
+
+  .navbar-module__6qiM_q__links, .navbar-module__6qiM_q__darkLinkText, .navbar-module__6qiM_q__linkText {
+    display: none;
+  }
+}
+
+/* [project]/src/components/auth/auth.module.css [app-client] (css) */
+.auth-module__cni4Dq__link {
+  cursor: pointer;
+  color: #001460;
+  background-color: #ff6f2e;
+  border: 2px solid #001460;
+  border-width: 1px 2px 2px 1px;
+  padding: 5px 20px;
+  transition: background-color .3s, color .3s;
+}
+
+.auth-module__cni4Dq__darkLink {
+  cursor: pointer;
+  color: #001460;
+  background-color: #b4bdff;
+  border: 2px solid #4a5489;
+  border-width: 1px 2px 2px 1px;
+  padding: 5px 20px;
+  transition: background-color .3s, color .3s;
+}
+
+.auth-module__cni4Dq__smallLink {
+  cursor: pointer;
+  color: #001460;
+  background-color: #ff6f2e;
+  border: 2px solid #001460;
+  border-width: 1px 2px 2px 1px;
+  padding: 3px 16px;
+  font-size: 24px;
+  transition: background-color .3s, color .3s;
+}
+
+.auth-module__cni4Dq__smallDarkLink {
+  cursor: pointer;
+  color: #001460;
+  background-color: #b4bdff;
+  border: 2px solid #4a5489;
+  border-width: 1px 2px 2px 1px;
+  padding: 3px 16px;
+  font-size: 24px;
+  transition: background-color .3s, color .3s;
+}
+
+.auth-module__cni4Dq__link:hover {
+  background-color: #bf5628;
+}
+
+.auth-module__cni4Dq__darkLink:hover {
+  background-color: #4a5489;
+}
+
+.auth-module__cni4Dq__authContainer {
+  align-items: center;
+  gap: 12px;
+  display: flex;
+}
+
+.auth-module__cni4Dq__writeBtn {
+  cursor: pointer;
+  color: #001460;
+  background-color: #00b600;
+  border: 2px solid #001460;
+  border-width: 1px 2px 2px 1px;
+  padding: 5px 28px;
+  transition: background-color .3s, color .3s;
+}
+
+.auth-module__cni4Dq__smallWriteBtn {
+  cursor: pointer;
+  color: #001460;
+  background-color: #00b600;
+  border: 2px solid #001460;
+  border-width: 1px 2px 2px 1px;
+  padding: 3px 24px;
+  font-size: 24px;
+  transition: background-color .3s, color .3s;
+}
+
+.auth-module__cni4Dq__darkWriteBtn {
+  cursor: pointer;
+  color: #001460;
+  background-color: #2acdb1;
+  border: 2px solid #4a5489;
+  border-width: 1px 2px 2px 1px;
+  padding: 5px 28px;
+  transition: background-color .3s, color .3s;
+}
+
+.auth-module__cni4Dq__smallDarkWriteBtn {
+  cursor: pointer;
+  color: #001460;
+  background-color: #2acdb1;
+  border: 2px solid #4a5489;
+  border-width: 1px 2px 2px 1px;
+  padding: 3px 24px;
+  font-size: 24px;
+  transition: background-color .3s, color .3s;
+}
+
+.auth-module__cni4Dq__writeBtn:hover, .auth-module__cni4Dq__smallWriteBtn:hover {
+  background-color: #008200;
+}
+
+.auth-module__cni4Dq__darkWriteBtn:hover, .auth-module__cni4Dq__smallDarkWriteBtn:hover {
+  background-color: #1e8f7e;
+}
+
+.auth-module__cni4Dq__burger {
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 20px;
+  height: 16px;
+  display: none;
+}
+
+.auth-module__cni4Dq__responsiveMenu {
+  background-color: var(--bg);
+  z-index: 999;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  width: 100%;
+  height: calc(100vh - 100px);
+  font-size: 36px;
+  display: flex;
+  position: absolute;
+  top: 60px;
+  left: 0;
+}
+
+.auth-module__cni4Dq__line {
+  background-color: var(--textColor);
+  width: 100%;
+  height: 2px;
+}
+
+.auth-module__cni4Dq__linkText {
+  letter-spacing: 1.8px;
+  color: #ff6f2e;
+  text-shadow: .5px 0 #001460, -.5px 0 #001460, 0 .5px #001460, 0 -.5px #001460, .5px -.5px #001460, -.5px -.5px #001460, -.5px .5px #001460, 1px 0 #001460, 0 2px #001460, 2px 2px #001460;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.auth-module__cni4Dq__darkLinkText {
+  letter-spacing: 1.8px;
+  color: #b4bdff;
+  text-shadow: .5px 0 #4a5489, -.5px 0 #4a5489, 0 .5px #4a5489, 0 -.5px #4a5489, .5px -.5px #4a5489, -.5px -.5px #4a5489, -.5px .5px #4a5489, 1px 0 #4a5489, 0 2px #4a5489, 2px 2px #4a5489;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 640px) {
+  .auth-module__cni4Dq__burger {
+    display: flex;
+  }
+
+  .auth-module__cni4Dq__authContainer {
+    gap: 8px;
+  }
+
+  .auth-module__cni4Dq__darkWriteBtn, .auth-module__cni4Dq__writeBtn, .auth-module__cni4Dq__link, .auth-module__cni4Dq__darkLink {
+    display: none;
+  }
+}
+
+/* [project]/src/components/footer/footer.module.css [app-client] (css) */
+.footer-module__tUdqrq__container {
+  color: var(--softTextColor);
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  padding: 20px 0;
+  display: flex;
+}
+
+.footer-module__tUdqrq__info {
+  flex-direction: column;
+  flex: 1;
+  gap: 14px;
+  display: flex;
+}
+
+.footer-module__tUdqrq__logo {
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.footer-module__tUdqrq__logoText {
+  font-size: 24px;
+}
+
+.footer-module__tUdqrq__desc {
+  font-weight: 300;
+}
+
+.footer-module__tUdqrq__icons {
+  gap: 10px;
+  margin-top: 10px;
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-module__tUdqrq__container {
+    flex-direction: column;
+    gap: 50px;
+  }
+}
+
+/*# sourceMappingURL=%5Broot-of-the-server%5D__c9649923._.css.map*/

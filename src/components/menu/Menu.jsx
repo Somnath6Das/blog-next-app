@@ -12,9 +12,6 @@ export default function Menu() {
             <MenuItem />
             <MenuItem />
             <MenuItem />
-            <MenuItem />
-            <MenuItem />
-            <MenuCategories />
         </div>
     )
 }
